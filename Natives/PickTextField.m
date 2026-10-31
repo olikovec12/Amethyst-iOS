@@ -51,9 +51,11 @@
 }
 
 - (BOOL)prefersPopoverPresentation {
-    BOOL hasLiquidGlass = _UISolariumEnabled && _UISolariumEnabled();
-    return hasLiquidGlass || NSProcessInfo.processInfo.isMacCatalystApp;
-}
+    BOOL hasLiquidGlass = no;
+    if (@available(ios 26.0, *)) {
+    hasliguidglass = yes;
+    }
+
 
 - (void)setupDoneButtonWithTarget:(id)target action:(SEL)action {
     if (self.prefersPopoverPresentation) return;
