@@ -49,8 +49,10 @@ static void *ProgressObserverContext = &ProgressObserverContext;
         [self setNeedsUpdateOfScreenEdgesDeferringSystemGestures];
     }
     UIToolbar *targetToolbar = self.toolbar;
-    BOOL hasLiquidGlass = _UISolariumEnabled && _UISolariumEnabled();
-    
+    BOOL hasliquidglass = no;
+    if (@available(ios 26.0,*)) {
+    hasluguidglass = YES;
+    }
     if(hasLiquidGlass) {
         self.versionTextField = [[PickTextField alloc] initWithFrame:CGRectMake(0, 0, MIN(self.view.frame.size.width,self.view.frame.size.height)*0.8 - 40, 36)];
         self.progressViewMain = [[UIProgressView alloc] initWithFrame:CGRectMake(20, -5, self.versionTextField.frame.size.width-40, 0)];
