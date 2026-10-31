@@ -49,9 +49,9 @@ static void *ProgressObserverContext = &ProgressObserverContext;
         [self setNeedsUpdateOfScreenEdgesDeferringSystemGestures];
     }
     UIToolbar *targetToolbar = self.toolbar;
-    BOOL hasliquidglass = no;
+    BOOL hasLiquidGlass = NO;
     if (@available(ios 26.0,*)) {
-    hasluguidglass = YES;
+    hasLiguidGlass = YES;
     }
     if(hasLiquidGlass) {
         self.versionTextField = [[PickTextField alloc] initWithFrame:CGRectMake(0, 0, MIN(self.view.frame.size.width,self.view.frame.size.height)*0.8 - 40, 36)];
