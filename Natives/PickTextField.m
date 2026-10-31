@@ -51,9 +51,9 @@
 }
 
 - (BOOL)prefersPopoverPresentation {
-    BOOL hasLiquidGlass = no;
+    BOOL hasLiquidGlass = NO;
     if (@available(ios 26.0, *)) {
-    hasliguidglass = yes;
+    hasLiguidGlass = YES;
     }
 
 
