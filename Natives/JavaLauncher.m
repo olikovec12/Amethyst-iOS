@@ -1,3 +1,7 @@
+#include <mach/mach.h>
+#include <mach/mach_init.h>
+
+// Tady pokračuje původní první řádek tvého souboru
 #include <dirent.h>
 #include <dlfcn.h>
 #include <errno.h>
