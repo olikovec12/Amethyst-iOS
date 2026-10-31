@@ -407,7 +407,7 @@ package: payload
 		echo 'Skipped codesigning. If not intentional, check your variables.'; \
 	fi
 	cd $(OUTPUTDIR); \
-rm -rf payload/sngelAuraAmethyst.ipa\AngelAuraAmethyst.dSYM; \
+
 	$(call METHOD_PACKAGE); \
 	zip --symlinks -r $(OUTPUTDIR)/java_runtimes.zip java_runtimes; \
 	echo '[Amethyst v$(VERSION)] package - end'
