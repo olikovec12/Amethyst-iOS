@@ -55,7 +55,8 @@
     if (@available(ios 26.0, *)) {
     hasLiquidGlass = YES;
     }
-
+    return hasLiquidGlass;
+    }
 
 - (void)setupDoneButtonWithTarget:(id)target action:(SEL)action {
     if (self.prefersPopoverPresentation) return;
