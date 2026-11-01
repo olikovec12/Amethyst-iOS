@@ -53,7 +53,7 @@
 			buildWorkingDirectory = "";
 			dependencies = (
 			);
-			name = "Angel Aura Amethyst";
+			name = "OliCraft Launcher";
 			passBuildSettingsInEnvironment = 1;
 			productName = PojavLauncher;
 		};
