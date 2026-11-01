@@ -43,7 +43,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		054957C52986E8DC00EFD4CE /* Angel Aura Amethyst */ = {
+		054957C52986E8DC00EFD4CE /* OliCraft Launcher */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-j$(sysctl -n hw.ncpu) dsym package";
 			buildConfigurationList = 054957C82986E8DC00EFD4CE /* Build configuration list for PBXLegacyTarget "Angel Aura Amethyst" */;
