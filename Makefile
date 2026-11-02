@@ -104,7 +104,7 @@ else
 $(error PLATFORM is not valid.)
 endif
 
-AME_BUNDLE_DIR      ?= $(OUTPUTDIR)/AngelAuraAmethyst.app
+AME_BUNDLE_DIR      ?= $(OUTPUTDIR)/Olicraft launcher.app
 AME_JRE8_DIR        ?= $(SOURCEDIR)/depends/java-8-openjdk
 AME_JRE17_DIR       ?= $(SOURCEDIR)/depends/java-17-openjdk
 AME_JRE21_DIR       ?= $(SOURCEDIR)/depends/java-21-openjdk
